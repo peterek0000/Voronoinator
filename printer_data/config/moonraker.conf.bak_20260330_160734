@@ -136,9 +136,3 @@ server: http://192.168.68.72:7912
 sync_rate: 5
 #   The interval, in seconds, between sync requests with the
 #   Spoolman server.  The default is 5.
-[update_manager goose_purge]
-type: git_repo
-primary_branch: main
-path: ~/goose_purge_macro
-origin: https://github.com/Graylag-PD/Goose-Purge-Macro.git
-managed_services: klipper
