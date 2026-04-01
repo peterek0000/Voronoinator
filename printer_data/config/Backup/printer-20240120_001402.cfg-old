@@ -1,0 +1,65 @@
+#Detected UUID: 951c9c04eb7d, Application: Klipper - Octopus
+#Detected UUID: 0e74fe4b72b7, Application: Klipper - ERCF
+#Detected UUID: bc45d4b7c188, Application: Klipper - SB2040
+
+[mcu]
+canbus_uuid: 951c9c04eb7d
+
+[include mainsail.cfg]
+[include Printer_Config_Files/*.cfg]
+#[include ERCF/*.cfg]
+[include KAMP_Settings.cfg]
+
+
+[extruder]
+#control: pid
+#pid_Kp: 24.240
+#pid_Ki: 2.184
+#pid_Kd: 67.267
+
+[pause_resume]
+recover_velocity: 300.0
+
+[probe]
+#z_offset: -0.555
+
+[input_shaper]
+#shaper_freq_x: 57.4
+#shaper_type_x: mzv
+#shaper_freq_y: 41.4
+#shaper_type_y: mzv
+
+#*# <---------------------- SAVE_CONFIG ---------------------->
+#*# DO NOT EDIT THIS BLOCK OR BELOW. The contents are auto-generated.
+#*#
+#*# [bed_mesh default]
+#*# version = 1
+#*# points =
+#*# 	  -0.198521, -0.167271, -0.179771
+#*# 	  -0.210396, -0.202896, -0.180396
+#*# 	  -0.199771, -0.187896, -0.185396
+#*# x_count = 3
+#*# y_count = 3
+#*# mesh_x_pps = 5
+#*# mesh_y_pps = 5
+#*# algo = lagrange
+#*# tension = 0.2
+#*# min_x = 143.42
+#*# max_x = 207.52
+#*# min_y = 138.85
+#*# max_y = 210.0
+#*#
+#*# [probe]
+#*# z_offset = -1.110
+#*#
+#*# [input_shaper]
+#*# shaper_type_x = 3hump_ei
+#*# shaper_freq_x = 89.6
+#*# shaper_type_y = mzv
+#*# shaper_freq_y = 38.2
+#*#
+#*# [extruder]
+#*# control = pid
+#*# pid_kp = 26.620
+#*# pid_ki = 2.689
+#*# pid_kd = 65.884
