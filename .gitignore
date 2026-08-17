@@ -1,9 +1,5 @@
 .env
 secrets.conf
-printer_data/config/mmu/addons
-printer_data/config/mmu/base
-printer_data/config/mmu/mmu_vars.cfg
-printer_data/config/mmu/optional
 *.swp
 *.tmp
 printer-[0-9]*_[0-9]*.cfg
